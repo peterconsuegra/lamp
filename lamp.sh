@@ -24,8 +24,7 @@ php_modules_install=('imagick-3.4.3','gmagick-2.0.5RC1')
 phpmyadmin='phpMyAdmin-4.8.2-all-languages'
 mariadb_location='/usr/local/mariadb'
 mariadb_data_location='/usr/local/mariadb/data'
-mariadb_root_pass=$password_root
-echo "password: "$password_root
+#mariadb_root_pass=$password_root
 
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
